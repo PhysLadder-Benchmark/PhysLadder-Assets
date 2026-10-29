@@ -1,0 +1,270 @@
+{
+  "status": "l1_integrated_with_declared_proxy_exceptions",
+  "path_base": "packages/<package.directory>/",
+  "task_layout": "task_assets.json",
+  "units": {
+    "length": "metre",
+    "up_axis": "Z"
+  },
+  "parameter_status": "Engineering estimates; not hardware calibration.",
+  "entries": [
+    {
+      "id": "lab",
+      "package": "lab_v4",
+      "path": "tuojing_lab.usda",
+      "role": "environment",
+      "notes": "Default 44.07 cm arm spacing; placement and camera calibration are estimated."
+    },
+    {
+      "id": "lab_axis_51cm",
+      "package": "lab_v4",
+      "path": "tuojing_lab_axis_51cm.usda",
+      "role": "alternative_environment",
+      "notes": "Optional 51 cm layout, not selected as the default."
+    },
+    {
+      "id": "wooden_rack",
+      "package": "photo_props",
+      "path": "assets/wooden_rack/wooden_rack.usda",
+      "role": "prop",
+      "notes": "L1-03: native fixed 82 cm rack, lowest diagonal peg; existing project handled cup retained."
+    },
+    {
+      "id": "power_strip",
+      "package": "photo_props",
+      "path": "assets/power_strip/power_strip.usda",
+      "role": "prop",
+      "notes": "L1-02: fixed native strip; middle two-slot socket, zero fixture friction; 0.55 mm minimum side clearance."
+    },
+    {
+      "id": "whiteboard_marker",
+      "package": "photo_props",
+      "path": "assets/whiteboard_marker/whiteboard_marker.usda",
+      "role": "prop",
+      "notes": "L1-01: native rigid capped marker; flat barrel collision override. Not a removable cap for L2-01."
+    },
+    {
+      "id": "ripple_paper_cup",
+      "package": "photo_props",
+      "path": "assets/ripple_paper_cup/ripple_paper_cup.usda",
+      "role": "prop",
+      "notes": "L1-01 pen holder, L1-04 two movable nesting cups, and L1-05 fixed flower holder; native hollow colliders, no deformation."
+    },
+    {
+      "id": "usb_charger",
+      "package": "photo_props",
+      "path": "assets/usb_charger/usb_charger.usda",
+      "role": "prop",
+      "notes": "L1-02: starts upright in native black storage base; two-blade geometry and entry-only scoring; housing/blade payload samples."
+    },
+    {
+      "id": "artificial_rose",
+      "package": "photo_props",
+      "path": "assets/artificial_rose/artificial_rose.usda",
+      "role": "prop",
+      "notes": "L1-05: native rigid artificial rose; grasp wider bud/calyx, insert stem into fixed ripple cup. No bending or damage model."
+    },
+    {
+      "id": "yellow_visor",
+      "package": "photo_props",
+      "path": "assets/yellow_visor/yellow_visor.usda",
+      "role": "prop",
+      "notes": "No automatic mapping to an existing benchmark task."
+    },
+    {
+      "id": "green_board",
+      "package": "photo_props",
+      "path": "assets/green_board/green_board.usda",
+      "role": "prop",
+      "notes": "Future wiping prop; visual asset alone does not provide an erasing mechanism."
+    },
+    {
+      "id": "desk_organizer",
+      "package": "feishu_drawer_20261011",
+      "path": "organizer_with_contents.usda",
+      "role": "prop",
+      "notes": "2026-10-11 original upper rail plus five loose 20 mm blue cubes; no push-to-open latch.",
+      "delivery": "2026-10-11"
+    },
+    {
+      "id": "all_props",
+      "package": "photo_props",
+      "path": "all_assets.usda",
+      "role": "showcase"
+    },
+    {
+      "id": "new_props",
+      "package": "photo_props",
+      "path": "showcase.usda",
+      "role": "showcase"
+    },
+    {
+      "id": "orange_segment",
+      "package": "feishu_orange_20261011",
+      "path": "assets/orange_segment/asset.usda",
+      "role": "prop",
+      "delivery": "2026-10-11",
+      "notes": "2026-10-11 native GPU FEM, 19.2 g, rounded three-lobe shape, front/back photos. Task material overrides remain explicit; no rupture script."
+    },
+    {
+      "id": "orange_left_fragment",
+      "package": "orange_soft",
+      "path": "assets/rupture_left/asset.usda",
+      "role": "fragment_template"
+    },
+    {
+      "id": "orange_right_fragment",
+      "package": "orange_soft",
+      "path": "assets/rupture_right/asset.usda",
+      "role": "fragment_template"
+    },
+    {
+      "id": "orange_validation",
+      "package": "orange_soft",
+      "path": "validation_scene.usda",
+      "role": "vendor_validation"
+    },
+    {
+      "id": "orange_rupture",
+      "package": "orange_soft",
+      "path": "rupture_scene.usda",
+      "role": "vendor_demo"
+    },
+    {
+      "id": "pullable_marker",
+      "package": "feishu_marker_20261011",
+      "path": "assets/pullable_marker/asset.usda",
+      "role": "prop",
+      "delivery": "2026-10-11"
+    },
+    {
+      "id": "open_bowl",
+      "package": "tabletop_interactions",
+      "path": "assets/open_bowl/open_bowl.usda",
+      "role": "prop"
+    },
+    {
+      "id": "closed_book",
+      "package": "feishu_book_20261011",
+      "path": "closed_book.usda",
+      "role": "prop",
+      "delivery": "2026-10-11"
+    },
+    {
+      "id": "pearl_4mm",
+      "package": "tabletop_interactions",
+      "path": "assets/pearl_4mm/pearl_4mm.usda",
+      "role": "prop"
+    },
+    {
+      "id": "pearl_6mm",
+      "package": "tabletop_interactions",
+      "path": "assets/pearl_6mm/pearl_6mm.usda",
+      "role": "prop"
+    },
+    {
+      "id": "pearl_8mm",
+      "package": "tabletop_interactions",
+      "path": "assets/pearl_8mm/pearl_8mm.usda",
+      "role": "prop"
+    },
+    {
+      "id": "blue_square",
+      "package": "feishu_drawer_20261011",
+      "path": "assets/blue_cube/blue_cube.usda",
+      "role": "prop",
+      "notes": "2026-10-11 native 20 mm cube, 2.6 g; copied from the organizer contents package.",
+      "delivery": "2026-10-11"
+    },
+    {
+      "id": "blue_triangle",
+      "package": "physical_props_20261008",
+      "path": "assets/blue_triangle/blue_triangle.usda",
+      "role": "prop",
+      "notes": "2026-10-08 native rigid prop; dimensions/friction partly estimated. Task-specific adaptations are recorded separately."
+    },
+    {
+      "id": "board_eraser",
+      "package": "feishu_eraser_20261011",
+      "path": "assets/blue_board_eraser/blue_board_eraser.usda",
+      "role": "prop",
+      "notes": "2026-10-11 native 120 x 60 x 20 mm rigid eraser, 15.4 g; cloth face local +Z.",
+      "delivery": "2026-10-11"
+    },
+    {
+      "id": "dustpan",
+      "package": "feishu_pan_20261011",
+      "path": "assets/dustpan/dustpan.usda",
+      "role": "prop",
+      "notes": "2026-10-11 native shallow round-backed pan with thin +Y lip, 23.2 g; fixed in task.",
+      "delivery": "2026-10-11"
+    },
+    {
+      "id": "expansion_anchor",
+      "package": "physical_props_20261008",
+      "path": "assets/expansion_anchor/expansion_anchor.usda",
+      "role": "prop",
+      "notes": "2026-10-08 native rigid prop; dimensions/friction partly estimated. Task-specific adaptations are recorded separately."
+    },
+    {
+      "id": "green_board_20261008",
+      "package": "feishu_board_20261011",
+      "path": "green_board.usda",
+      "role": "prop",
+      "notes": "Legacy ID; current 2026-10-11 board has photo-derived red GPT6 writing and ink_mask.png. Runtime adapts the writing to a contact-removal proxy.",
+      "delivery": "2026-10-11"
+    },
+    {
+      "id": "hand_brush",
+      "package": "feishu_brush_20261011",
+      "path": "assets/hand_brush/hand_brush.usda",
+      "role": "prop",
+      "notes": "2026-10-11 native thin fan-shaped hand brush, 36.5 g; rigid bristles.",
+      "delivery": "2026-10-11"
+    },
+    {
+      "id": "oriental_leaf_335ml",
+      "package": "feishu_bottle_20261011",
+      "path": "assets/oriental_leaf.usdc",
+      "role": "prop",
+      "notes": "2026-10-11 square empty-bottle appearance, separate cap; native body mass still 358 g. Body fixed in this task, cap pre-loosened 7.5 mm/300 degrees; uncalibrated thread/friction.",
+      "delivery": "2026-10-11"
+    },
+    {
+      "id": "anchor_removable_nut",
+      "package": "feishu_bolt_20261011",
+      "path": "assets/stud_and_nut.usda",
+      "role": "prop",
+      "notes": "2026-10-11 independent 140 mm conical stud / 24 mm hex nut, 2 mm RH pitch. Runtime pre-loosens seven turns / 14 mm, leaving 5 mm engagement; no thread guide or motor.",
+      "delivery": "2026-10-11"
+    },
+    {
+      "id": "cylindrical_pedestal",
+      "package": "desktop_additions_20261009",
+      "path": "assets/cylindrical_pedestal/cylindrical_pedestal.usda",
+      "role": "prop",
+      "notes": "130 mm tall, 68 mm flat top, 313.9 g. L2-04 fixes the native support in the scene; source remains movable."
+    },
+    {
+      "id": "black_ceramic_mug",
+      "package": "desktop_additions_20261009",
+      "path": "assets/black_ceramic_mug/black_ceramic_mug.usda",
+      "role": "prop",
+      "notes": "L1-01 fixed black/white pen receptacle; photo-based 2026-10-09 layout, native hollow walls and handle."
+    },
+    {
+      "id": "plug_storage_base",
+      "package": "desktop_additions_20261009",
+      "path": "assets/plug_storage_base/plug_storage_base.usda",
+      "role": "prop",
+      "notes": "L1-02 native free-standing pickup holder; 20.8 g, hollow pocket and central through-hole; not the electrical target socket."
+    },
+    {
+      "id": "green_support_box",
+      "package": "feishu_box_20261011",
+      "path": "assets/green_support_box/green_support_box.usda",
+      "role": "prop",
+      "delivery": "2026-10-11"
+    }
+  ]
+}
